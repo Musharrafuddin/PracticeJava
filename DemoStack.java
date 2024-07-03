@@ -1,0 +1,28 @@
+
+
+import java.util.*;
+
+public class DemoStack {
+    public static void main(String args[]){
+        Stack<Integer> stack= new Stack<Integer>();
+        stack.add(10);
+        stack.push(20);
+        stack.push(30);
+        System.out.println(stack);
+        System.out.println(stack.pop());
+        System.out.println(stack.peek());
+        System.out.println(stack);
+        System.out.println(stack.capacity());
+        System.out.println(stack.indexOf(10));
+        System.out.println(stack.firstElement());
+        System.out.println(stack);
+        stack.setElementAt(30,0);
+        System.out.println(stack);
+        stack.add(0,40);
+        System.out.println(stack);
+        stack.add(50);
+        System.out.println(stack);
+
+    }
+
+}
